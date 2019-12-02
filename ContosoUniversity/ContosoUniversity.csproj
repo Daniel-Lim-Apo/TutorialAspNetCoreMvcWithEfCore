@@ -5,6 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20191202024130_FirstName50_2.cs" />
+    <Compile Remove="Migrations\20191202024130_FirstName50_2.Designer.cs" />
+    <Compile Remove="Migrations\20191202024317_FirstName50_2_mid.cs" />
+    <Compile Remove="Migrations\20191202024317_FirstName50_2_mid.Designer.cs" />
+    <Compile Remove="Migrations\20191202024420_FirstName50_2_mid_2.cs" />
+    <Compile Remove="Migrations\20191202024420_FirstName50_2_mid_2.Designer.cs" />
+    <Compile Remove="Migrations\20191202140941_ComplexDataModel.cs" />
+    <Compile Remove="Migrations\20191202140941_ComplexDataModel.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0">
       <PrivateAssets>all</PrivateAssets>
